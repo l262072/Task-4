@@ -1,0 +1,114 @@
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white; 
+    
+}
+
+
+#header {
+    background-color:lightcyan; 
+    text-align: right;
+    padding: 20px 30px;
+    margin: 0px;
+}
+
+#header h1 {
+    color:cyan;
+    margin: 0;
+    font-weight: normal; 
+    font-size: 2.5em;
+}
+
+#header h2 {
+    color:cyan;
+    margin: 5px 0 0 0;
+    font-weight: normal;
+}
+
+
+
+#sidebar {
+    float: left; 
+    width: 22%;
+}
+
+#main-content {
+    float: right; 
+    width: 70%;
+}
+
+
+.friends-box {
+    background-color:Turquoise ;
+    border: 3px solid teal;
+    padding: 15px;
+}
+
+.friends-box h2 {
+    color:darkteal;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.friends-box ul {
+    color:darkteal;
+    padding-left: 20px;
+}
+
+
+.entry{
+   
+    border: 4px solid lightblue; 
+    padding: 15px;
+    margin-bottom: 20px;
+   overflow: hidden;
+    background-color:lightcyan;
+ 
+}
+
+.entry h2 {
+    color:darkcyan;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.date {
+    color:blue;
+    border-bottom: 2px dotted blue; 
+}
+
+.entry p {
+    line-height: 1.5;
+
+}
+
+.entry-image {
+    float: right; 
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 150px; 
+    height: auto;
+    
+}
+ul li.red{
+color:red;
+}
+ul li.white{
+color:white;
+}
+
+#page-style {
+    background-color:white;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 0 20px 0;
+    border: 20px solid lightblue; 
+   }
+#content{
+    padding: 20px;         
+    overflow: hidden;       
+}
+
+
